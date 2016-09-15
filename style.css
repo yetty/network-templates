@@ -1,0 +1,205 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Franklin:300i,400,400i,700&subset=latin-ext';
+
+
+@font-face {
+    font-family: 'network';
+    src:  url('fonts/network.eot?2dr98n');
+    src:  url('fonts/network.eot?2dr98n#iefix') format('embedded-opentype'),
+    url('fonts/network.ttf?2dr98n') format('truetype'),
+    url('fonts/network.woff?2dr98n') format('woff'),
+    url('fonts/network.svg?2dr98n#network') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'network' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+   /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-in:before {
+    font-size: 140%;
+    content: "\e900";
+}
+.icon-out:before {
+    font-size: 140%;
+    content: "\e902";
+}
+.icon-up:before {
+    font-size: 140%;
+    content: "\e901";
+}
+.icon-arrow:before {
+    content: "\e904";
+}
+.icon-hash:before {
+    font-size: 120%;
+    content: "\e903";
+}
+
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+}
+
+a, p, h1, h2, h3 {
+    color: rgb(23, 86, 86);
+}
+
+h1, h2, h3 {
+    font-style: italic;
+    font-weight: 300;
+    text-shadow: 2px 2px rgba(70, 70, 70, 0.1);
+}
+
+/* top-navigation begin */
+#top-navigation {
+    margin: 20px 0;
+}
+
+#top-navigation ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#top-navigation li {
+    list-style-type: none;
+}
+
+#top-navigation li a {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+#top-navigation .navbar-toggle .icon-bar {
+    background-color: rgb(23, 86, 86);
+}
+
+#top-navigation .navbar-brand {
+    margin: 16px 0 -20px 30px;
+    padding: 0;
+}
+
+/* top-navigation end */
+
+
+
+/* top-title begin */
+
+#top-title {
+    margin: 40px 0 50px 0;
+}
+
+#top-title h1, #content h1 {
+    font-size: 260%;
+}
+
+/* top-title end */
+
+
+
+/* top-banner begin */
+
+#top-banner {
+    position: relative;
+    background: url(images/F79A7282.jpg) repeat-x top center fixed;
+
+    padding: 140px 0 120px 0;
+}
+
+#top-banner * {
+    color: white;
+}
+
+#top-banner .moto {
+    font-weight: 700;
+    font-size: 170%;
+
+    letter-spacing: 2px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#top-banner .arrow {
+    position: absolute;
+    bottom: 0;
+
+    background: rgb(23, 86, 86);
+    margin-left: -30px;
+    margin-bottom: -35px;
+    padding: 5px;
+    height: 70px;
+    width: 70px;
+
+    font-size: 300%;
+}
+
+/* top-banner end */
+
+
+
+
+/* content begin */
+
+#content {
+    padding: 60px 0;
+}
+
+#content h1 {
+    margin: -10px 0 50px 0;
+}
+
+#content h2 {
+    margin: 20px 0;
+}
+
+#content p {
+    text-align: left;
+}
+
+/* content end */
+
+
+
+/* bottom-banner begin */
+
+#bottom-banner {
+    background: url(images/F79A7341.jpg) repeat-x 50% 100% fixed;
+    padding: 100px 0;
+}
+
+#bottom-banner * {
+    color: white;
+}
+
+#bottom-banner .promo {
+    font-size: 180%;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* bottom-banner end */
+
+
+
+/* footer begin */
+
+#footer {
+    padding: 40px 0;
+    background: rgb(0, 153, 153);
+}
+
+#footer * {
+    color: white;
+}
