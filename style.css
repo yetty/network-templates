@@ -64,24 +64,87 @@ h1, h2, h3 {
     text-shadow: 2px 2px rgba(70, 70, 70, 0.1);
 }
 
+/* landing-page begin */
+
+#landing-page {
+    position: relative;
+    height: 100vh;
+
+    padding: 40px 0;
+
+    background: url('images/landing_page.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#landing-page * {
+    color: white;
+}
+
+#landing-page a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#landing-page h1 {
+    margin: 0
+}
+
+#landing-page .title h1 {
+    font-size: 5.5em;
+    margin: 80px 0 200px;
+}
+
+#landing-page .nav li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-shadow: 2px 2px rgba(70, 70, 70, 0.1);
+}
+
+#landing-page .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+#landing-page .navbar .navbar-collapse {
+    text-align: center;
+}
+
+#landing-page .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+#landing-page .moto {
+    /*position: absolute;
+    bottom: 120px;
+    margin-top: 150px;
+    width: inherit;
+    */
+    margin: 40px 0;
+}
+
+
+#landing-page .moto p {
+    font-size: 140%;
+    text-shadow: 2px 2px rgba(70, 70, 70, 0.1);
+}
+
+/* landing-page end */
+
 /* top-navigation begin */
 #top-navigation {
     margin: 20px 0;
 }
 
-#top-navigation ul {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
 #top-navigation li {
     list-style-type: none;
+    text-align: center;
 }
 
 #top-navigation li a {
     display: inline-block;
-    padding: 20px 10px;
+    padding: 20px;
 }
 
 #top-navigation .navbar-toggle .icon-bar {
@@ -96,37 +159,22 @@ h1, h2, h3 {
 /* top-navigation end */
 
 
-
-/* top-title begin */
-
-#top-title {
-    margin: 40px 0 50px 0;
-}
-
-#top-title h1, #content h1 {
-    font-size: 260%;
-}
-
-/* top-title end */
-
-
-
 /* top-banner begin */
 
 #top-banner {
     position: relative;
     background: url(images/F79A7282.jpg) repeat-x top center fixed;
 
-    padding: 140px 0 120px 0;
+    padding: 70px 0 90px 0;
 }
 
 #top-banner * {
     color: white;
 }
 
-#top-banner .moto {
-    font-weight: 700;
-    font-size: 170%;
+#top-banner h1 {
+    font-size: 320%;
+    font-weight: 400;
 
     letter-spacing: 2px;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
@@ -177,7 +225,7 @@ h1, h2, h3 {
 
 #bottom-banner {
     background: url(images/F79A7341.jpg) repeat-x 50% 100% fixed;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 #bottom-banner * {
